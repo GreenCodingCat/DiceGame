@@ -28,8 +28,8 @@ public class DiceGame {
         
         while (i != 0) {
             
-            dice1 = randy.nextInt(6);
-            dice2 = randy.nextInt(6);
+            dice1 = randy.nextInt(6+1);
+            dice2 = randy.nextInt(6+1);
             total = dice1+dice2;
             System.out.println ("You rolled: " +total);
             
